@@ -13,7 +13,7 @@ enable_customize: '0'
 sticky_menu: '1'
 site_layout: wide
 preloader: '0'
-default_header: header-2
+default_header: header
 footer_skin: ''
 footer_first_size: '3'
 footer_second_size: '3'
