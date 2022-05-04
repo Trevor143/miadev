@@ -1,4 +1,4 @@
-uuid: 7e11dd17-997a-4051-b38e-045351a16d8e
+uuid: c68a3ce4-7fcd-4889-b3e0-9db1f748d483
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     - core.entity_view_mode.node.teaser_3
     - field.storage.node.body
     - field.storage.node.field_service_images
-    - node.type.service
+    - node.type.departments
     - system.menu.main
   module:
     - gavias_view
@@ -18,8 +18,8 @@ dependencies:
     - user
 _core:
   default_config_hash: TaLHvuf5GuA6kDjNXNU6wmlFgwMqLsvZyrc7HaHglTc
-id: service
-label: Services
+id: departments
+label: Departments
 module: views
 description: ''
 tag: ''
@@ -343,7 +343,7 @@ display:
           plugin_id: bundle
           operator: in
           value:
-            service: service
+            departments: departments
           group: 1
           exposed: false
           expose:
@@ -1180,8 +1180,7 @@ display:
         type: normal
         title: Services
         description: ''
-        weight: -46
-        enabled: false
+        weight: -48
         expanded: false
         menu_name: main
         parent: ''
@@ -1347,11 +1346,11 @@ display:
       tags: {  }
   page_3:
     id: page_3
-    display_title: 'Page Services 3'
+    display_title: Departments
     display_plugin: page
     position: 5
     display_options:
-      title: 'Services Style III'
+      title: Departments
       fields:
         title:
           id: title
@@ -1485,7 +1484,17 @@ display:
             format: full_html
           tokenize: false
       display_extenders: {  }
-      path: services-3
+      path: departments
+      menu:
+        type: normal
+        title: Departments
+        description: ''
+        weight: -50
+        enabled: true
+        expanded: true
+        menu_name: main
+        parent: 'menu_link_content:12f50f70-f687-415e-990c-8b433503fcde'
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1802,11 +1811,11 @@ display:
         - 'config:field.storage.node.field_service_images'
   service_tab_vertical:
     id: service_tab_vertical
-    display_title: 'Services Grid'
+    display_title: 'Departments Grid'
     display_plugin: block
     position: 3
     display_options:
-      title: 'Services Grid'
+      title: Departments
       fields:
         title:
           id: title
@@ -1892,7 +1901,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: teaser_3
+          view_mode: teaser
       defaults:
         title: false
         css_class: false

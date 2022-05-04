@@ -13,6 +13,10 @@ pattern: '[node:title]'
 selection_criteria:
   e34fccb0-f935-441c-8894-a567a99859e8:
     id: node_type
+    negate: false
+    uuid: e34fccb0-f935-441c-8894-a567a99859e8
+    context_mapping:
+      node: node
     bundles:
       article: article
       banner: banner
@@ -21,10 +25,18 @@ selection_criteria:
       portfolio: portfolio
       team: team
       testimonial: testimonial
+  1106a346-10d2-4f39-b7f0-6b5072646205:
+    id: 'entity_bundle:node'
     negate: false
+    uuid: 1106a346-10d2-4f39-b7f0-6b5072646205
     context_mapping:
       node: node
-    uuid: e34fccb0-f935-441c-8894-a567a99859e8
+    bundles:
+      banner: banner
+      page: page
+      portfolio: portfolio
+      team: team
+      testimonial: testimonial
 selection_logic: and
 weight: -5
 relationships: {  }
