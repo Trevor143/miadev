@@ -8,8 +8,8 @@ _core:
   default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
 id: gavias_facdori_local_actions
 theme: gavias_facdori
-region: other
-weight: -5
+region: content
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:

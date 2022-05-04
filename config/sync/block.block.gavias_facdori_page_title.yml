@@ -8,8 +8,8 @@ _core:
   default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
 id: gavias_facdori_page_title
 theme: gavias_facdori
-region: content
-weight: -50
+region: other
+weight: -5
 provider: null
 plugin: page_title_block
 settings:
