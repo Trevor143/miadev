@@ -1,0 +1,36 @@
+uuid: 8b1b5f21-10b8-43d8-bb56-d3f36379dd42
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.categories_post
+  module:
+    - gaviasthemer
+    - system
+    - views
+  theme:
+    - gavias_facdori
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: 4A_bCHZShPtjYuNnM0_HBviCKJ2LNkbqNXdZEiUQNLw
+id: gavias_facdori_views_block__categories_post_block_1_2
+theme: gavias_facdori
+region: sidebar_right
+weight: -10
+provider: null
+plugin: 'views_block:categories_post-block_1'
+settings:
+  id: 'views_block:categories_post-block_1'
+  label: Categories
+  label_display: visible
+  provider: views
+  views_label: Categories
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /blogs-list

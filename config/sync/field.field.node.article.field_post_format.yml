@@ -1,0 +1,25 @@
+uuid: 6e3b093a-6cc7-42bc-8199-c44b37920ac9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_post_format
+    - node.type.article
+  module:
+    - options
+_core:
+  default_config_hash: uH5r0lIJwuO68DLlrIoywYiCfH709WCSttvWO9eKaic
+id: node.article.field_post_format
+field_name: field_post_format
+entity_type: node
+bundle: article
+label: 'Post format'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: standard
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,42 @@
+uuid: 402cfec1-bd1c-4189-af1f-b052100c7359
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.categories_post
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+    - views
+  theme:
+    - gavias_facdori
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: YaIVaUpWYw8yPOGJ77ii1d8cLBv-FySIIh09FEmCE3U
+id: gavias_facdori_views_block__categories_post_block_2
+theme: gavias_facdori
+region: sidebar_right
+weight: -6
+provider: null
+plugin: 'views_block:categories_post-block_2'
+settings:
+  id: 'views_block:categories_post-block_2'
+  label: 'Tags '
+  label_display: visible
+  provider: views
+  views_label: 'Tags '
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/services\r\n/services-2\r\n/services-3\r\n/blogs-masonry\r\n/blogs-grid\r\n/portfolio\r\n/portfolio-1\r\n/portfolio-2\r\n/portfolio-3\r\n/portfolio-4"
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''

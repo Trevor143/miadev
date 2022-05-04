@@ -1,0 +1,22 @@
+uuid: c24cad64-cf05-48d1-81eb-c79e0fe65163
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gavias_facdori
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: gavias_facdori_powered
+theme: gavias_facdori
+region: other
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

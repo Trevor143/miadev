@@ -1,0 +1,34 @@
+uuid: 8abd1ae0-7515-4431-811a-37ebf159e5ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.resources.body
+    - field.field.node.resources.field_related_document_s_
+    - node.type.resources
+  module:
+    - file
+    - text
+    - user
+id: node.resources.default
+targetEntityType: node
+bundle: resources
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_related_document_s_:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  links: true

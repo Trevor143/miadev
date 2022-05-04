@@ -1,0 +1,22 @@
+uuid: 8a337e63-21f6-45f2-ac7d-9d096f987a57
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.departments
+id: node.departments.promote
+field_name: promote
+entity_type: node
+bundle: departments
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

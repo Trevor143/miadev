@@ -1,0 +1,24 @@
+uuid: 3dfb1dec-490f-4f39-ba5e-a44cf0d1fc4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.departments.body
+    - node.type.departments
+  module:
+    - text
+    - user
+id: node.departments.default
+targetEntityType: node
+bundle: departments
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true

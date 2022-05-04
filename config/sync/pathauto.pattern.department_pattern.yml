@@ -1,0 +1,22 @@
+uuid: e7d1f1b1-d1a1-40f2-829f-f74a858e3560
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: department_pattern
+label: 'Department Pattern'
+type: 'canonical_entities:node'
+pattern: '/[node:content-type]/[node:title]'
+selection_criteria:
+  c580b35f-b5a5-4b4b-915a-40447a4eb030:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: c580b35f-b5a5-4b4b-915a-40447a4eb030
+    context_mapping:
+      node: node
+    bundles:
+      departments: departments
+selection_logic: and
+weight: -5
+relationships: {  }

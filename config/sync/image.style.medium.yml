@@ -1,0 +1,17 @@
+uuid: 89fe6d25-1016-442f-9fec-888daf916e51
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cHS4g25NhDtX5SnC6Dw5EwoRt9msElHjdHGCFg20_2E
+name: medium
+label: 'Medium (750×520)'
+effects:
+  06e6172c-354a-42b2-9962-986117d04601:
+    uuid: 06e6172c-354a-42b2-9962-986117d04601
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 750
+      height: 520
+      anchor: center-center

@@ -1,0 +1,36 @@
+name: 'Features Facdori'
+description: 'Features Facdori - Import content type, field, view ... for Facdori theme'
+type: module
+core_version_requirement: ^8.8 || ^9
+dependencies:
+  - block
+  - block_visibility_groups
+  - comment
+  - contact
+  - ctools
+  - datetime
+  - field
+  - file
+  - gavias_content_builder
+  - gavias_view
+  - gaviasthemer
+  - image
+  - imce
+  - mailchimp_signup
+  - menu_ui
+  - node
+  - options
+  - path
+  - pathauto
+  - rdf
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+  - views_infinite_scroll
+  - webform
+  - config_update
+  - features
+  - admin_toolbar
+version: 9.x

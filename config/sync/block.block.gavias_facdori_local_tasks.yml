@@ -1,0 +1,22 @@
+uuid: 315cce17-b1ac-46da-8db0-a294419ad558
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_facdori
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: gavias_facdori_local_tasks
+theme: gavias_facdori
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
